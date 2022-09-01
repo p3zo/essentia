@@ -17,6 +17,7 @@ cd $LIBSAMPLERATE_VERSION
     --prefix=$PREFIX \
     --disable-fftw \
     --disable-sndfile \
+    --build=aarch64-unknown-linux-gnu \
     $SHARED_OR_STATIC
 make
 make install
